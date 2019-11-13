@@ -28,14 +28,6 @@ interface Dirs
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the error directory.
-   *
-   * @return string
-   */
-  public function errDir(): string;
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
    * Returns the directory for configuration files.
    *
    * @return string
@@ -44,11 +36,11 @@ interface Dirs
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the directory for log files.
+   * Returns the error directory.
    *
    * @return string
    */
-  public function logDir(): string;
+  public function errDir(): string;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -57,6 +49,14 @@ interface Dirs
    * @return string
    */
   public function lockDir(): string;
+
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
+   * Returns the directory for log files.
+   *
+   * @return string
+   */
+  public function logDir(): string;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
