@@ -1,8 +1,8 @@
 {
   "name": "plaisio/dirs",
-  "description": "Plaisio: Directories",
+  "description": "PhpPlaisio: Directories",
   "keywords": [
-    "Plaisio",
+    "PhpPlaisio",
     "Directories"
   ],
   "license": "MIT",
