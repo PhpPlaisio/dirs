@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Dirs\Dirs</type>
+            <name>dirs</name>
+            <description>the helper object for getting directory names.</description>
+        </property>
+    </properties>
+</kernel>
