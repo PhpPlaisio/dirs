@@ -72,7 +72,7 @@ interface Dirs
    *
    * This method MUST NOT return /tmp, /var/tmp or
    * (sys_get_temp_dir())[https://www.php.net/manual/function.sys-get-temp-dir.php]. These directories might severely
-   * size restricted and will wreak havoc to your system when when the filesystem of these directories are full.
+   * size restricted and will wreak havoc to your system when the filesystem of these directories are full.
    *
    * @return string
    */
